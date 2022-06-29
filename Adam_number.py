@@ -1,4 +1,4 @@
-n=int(input())
+n = int(input())
 sq_n=n*n
 rev=0
 while n:
@@ -10,6 +10,6 @@ while rev_sq:
     p=p*10+rev_sq%10
     rev_sq//=10
 if sq_n==p:
-    print('True')
+    print(True)
 else:
-    print('False')
+    print(False)

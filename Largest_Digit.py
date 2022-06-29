@@ -6,4 +6,4 @@ while n>0:
     if lar<i:
         lar=i
     n=n//10
-print(lar)     
+print(lar)

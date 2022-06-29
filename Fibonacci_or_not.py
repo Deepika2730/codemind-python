@@ -4,7 +4,7 @@ b=1
 c=a+b
 if n==0:
     print('True')
-while(c<n):
+while c<n:
     c=a+b
     a=b
     b=c

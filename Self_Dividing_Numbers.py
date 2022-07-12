@@ -1,15 +1,11 @@
-a=int(input())
-b=int(input())
-l=0
-for i in range(a,b+1):
-    x=len(str(i))
-    c=i
-    while c!=0:
-        j=c%10
-        if j!=0 and i%j==0:
-            l+=1
-        c=c//10
-    if l==x:
-        print(i,end=' ')
-    l=0    
-            
+x = int(input())
+y = int(input())
+for i in range(x,y+1):
+    a=str(i)
+    k = len(str(i))
+    c=0
+    for j in a:
+        if int(j)!=0 and int(a)%int(j)==0:
+            c+=1
+    if c==k:
+        print(a,end=" ")

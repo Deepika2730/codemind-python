@@ -1,8 +1,9 @@
-n=int(input())
-a=list(map(int,input().split()))
+x=int(input())
+l=list(map(int,input().split()))
 k=int(input())
 s=0
-for i in range(n):
-    if a[i]<=k:
-        s=s+a[i]
-print(s)
+for i in l:
+    if i==k:
+        break
+    s+=i
+print(s+k)

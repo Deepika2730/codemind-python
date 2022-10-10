@@ -1,8 +1,8 @@
-n=int(input())
-a=list(map(int,input().split()))
+x=int(input())
+l=list(map(int,input().split()))
 s=0
-for i in range(n):
-    if a[i]%2==0:
+for i in l:
+    if i%2==0:
         break
-    s=s+a[i]
+    s+=i
 print(s)
